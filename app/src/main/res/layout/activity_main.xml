@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+<LinearLayout
+    android:orientation="horizontal"
+    android:layout_marginTop="40dp"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+    <ToggleButton
+        android:id="@+id/tb1"
+        android:text="toggle1"
+        android:layout_marginLeft="90dp"
+        android:textOff="Off"
+        android:textOn="On"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"></ToggleButton>
+    <ToggleButton
+        android:id="@+id/tb2"
+        android:text="toggle1"
+        android:textOff="Off"
+        android:layout_marginLeft="50dp"
+        android:textOn="On"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"></ToggleButton>
+</LinearLayout>
+    <Button
+        android:text="Submit"
+        android:id="@+id/submit"
+        android:layout_marginTop="120dp"
+        android:layout_centerHorizontal="true"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"></Button>
+
+</RelativeLayout>
